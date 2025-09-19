@@ -1,0 +1,126 @@
+
+body{
+background-color:  #fffbf1;
+margin: 0;
+padding: 0;
+
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    background-color: #fffbf1;         
+    align-items: center; 
+    justify-items: center; 
+    width: 100%; 
+    padding: 2%;
+ 
+}
+h1{
+    
+  font-family: "Sacramento", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6vw;
+  color: #f8ca88;
+  
+
+}
+
+
+h3{
+    font-family: "Sacramento", cursive;
+    font-size: 5vw;
+    color:  #295F98;
+  
+}
+
+section{
+    padding: 2vw;
+}
+
+
+ .about-me{
+ 
+  display: flex;
+  flex-direction: column;           
+  justify-content: flex-start; 
+  align-items: center;    
+  padding: 5%;             
+  background-color: #C6E7FF;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+
+.my-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    background-color: #D4F6FF;
+
+}
+
+p , ul{
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+   font-style:initial;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 2%;
+
+ }
+
+
+
+ #copy-right-content{
+    color: #295F98;
+ }
+
+
+footer{
+   
+
+    display: flex; 
+    flex-direction: column;             
+    justify-content: center;    
+    align-items: center; 
+    padding-top: 2%;
+    background-color: #FFDDAE;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+
+   
+}
+
+
+
+.btn-sm {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;  
+  gap: 0.5vw;               
+
+  font-size: 1.2vw;         
+  padding: 0.5vw 1.2vw;    
+  
+  background: #fffbf1;
+  border: none;
+  color: #295F98;
+  border-radius: 0.5vw;      
+}
+
+.btn-sm:hover {
+  background: #fbefd1;
+  text-decoration: none;
+  color: #295F98;
+}
+
+.btn-sm:active,
+.btn-sm:focus {
+  background: #fffbf1 !important;
+  box-shadow: none !important; 
+  outline: none !important;
+}
