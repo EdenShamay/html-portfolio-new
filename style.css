@@ -31,7 +31,8 @@ h1{
 
 h3{
     font-family: "Sacramento", cursive;
-  font-size: 6vw;
+  font-size: 4.5vw;
+    font-weight: 600;
     color:  #295F98;
   
 }
@@ -61,7 +62,7 @@ h3{
     justify-content: center;   
     background-color: #D4F6FF;
     padding: 10%;
-
+    
 }
 
 .skills-wrap{
@@ -86,15 +87,20 @@ p , ul{
     font-family: "Comic Neue", cursive;
     font-style:initial;
     font-weight: 600;
-    margin: 2%;
-    font-size: 2vw;
+    font-size: 1.2em;
+    width: 100%;
+
+
 
  }
 
 
 
  #copy-right-content{
+  font-size: 1.4vw;
+  padding-top: 2%;
     color: #295F98;
+    width: 100%;
  }
 
 
@@ -105,7 +111,7 @@ footer{
     flex-direction: column;             
     justify-content: center;    
     align-items: center; 
-    padding-top: 10%;
+    padding-top: 5%;
     background-color: #FFDDAE;
 
 }
