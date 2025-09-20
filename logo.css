@@ -54,7 +54,7 @@
   width: 1vw;
   height: 1vw;
   border-radius: 50%;
-      aspect-ratio: 1/1;
+  aspect-ratio: 1/1;
 }
 
 .red {
@@ -70,8 +70,6 @@
 #window-content{
     font-family: "Press Start 2P", cursive;
     font-size: 2vw;
-    line-height: 2vw;
-
 
 
 }
